@@ -12,7 +12,7 @@ type Project = {
 const PROJECTS: Record<string, Project> = {
   pro1: {
     title: "Mill Online Shop (Mobile E-commerce App)",
-    image: "/ast/beka.pro 1.png",
+    image: "/ast/proj 1 (2).png",
     description:
       "A personalized mobile commerce app with smart search, clean product grid, and bottom navigation. Designed for ease of browsing and fast purchases on the go, and delivered high-fidelity prototypes.",
     tools: ["Figma"],
@@ -21,7 +21,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro2: {
     title: "Sneaker Shopping App (Nike UI)",
-    image: "/ast/beka.pro 2.png",
+    image: "/ast/proj 2.png",
     description:
       "Created a sleek and contemporary e-commerce UI for sneakerheads. Prioritized simple product discovery through minimal categories, a visible search bar, and engaging features such as wishlist and cart icons. Prioritized clean design, bold brand imagery (Nike), and adaptive navigation to maximize user shopping experience.",
     tools: ["Figma", ],
@@ -30,7 +30,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro3: {
     title: "Book Library & Recommendation App",
-    image: "/ast/beka.pro 3.png",
+    image: "/ast/proj 3.png",
     description:
       "Developed a user-centered library app UI enabling users to discover, search, and save books according to interests. Focused on accessibility and interactivity with vibrant visuals and personalized recommendation categories such as 'For You' and 'Recommends.",
     tools: ["Figma", "Usability Testing"],
@@ -39,7 +39,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro4: {
     title: "Video Editing Service App (VisionCraft)",
-    image: "/ast/beka.pro 4.png",
+    image: "/ast/proj 4.png",
     description:
       "Created a modern dark-themed UI for an innovative service platform that provides video editing, color grading, and motion graphics. The interface prioritizes service discovery, user rewards, as well as promotion banners, adding value to the business and motivating users.",
     tools: ["Figma",],
@@ -48,7 +48,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro5: {
     title: "VisionCraft (Creative Agency Website)",
-    image: "/ast/beka.pro 51.png",
+    image: "/ast/Proj 5.png",
     description:
       "A modern portfolio site for a video editing business. It features services, client works, and collaborations with a comprehensible layout and engaging visuals.",
     tools: ["Figma", "Prototyping"],
@@ -57,7 +57,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro6: {
     title: " BRIDGE Watch (Desktop E-commerce)",
-    image: "/ast/beka.pro 6(1).png",
+    image: "/ast/proj 6.png",
     description:
       "A high-end watch store homepage with simple design, product focus, and promotional elements. It boasts clear visual hierarchy and user-friendly shopping navigation.",
     tools: ["Figma"],

@@ -25,6 +25,7 @@ export function Footer() {
         <nav className="space-y-2">
           <p className="text-xs uppercase tracking-widest text-foreground/60">Quick Links</p>
           <div className="flex flex-wrap gap-3">
+            
             {LINKS.map((l) => (
               <a key={l.href} href={l.href} className="text-sm text-foreground/70 hover:text-foreground transition-colors">{l.label}</a>
             ))}
@@ -45,7 +46,7 @@ export function Footer() {
             <a aria-label="Email" href="bekafite@gmail.com" className="size-9 inline-flex items-center justify-center rounded-md bg-secondary/80 hover:bg-secondary transition-colors">
               <Mail className="size-5" />
             </a>
-            <a aria-label="GitHub" href="https://github.com/" target="_blank" rel="noreferrer" className="size-9 inline-flex items-center justify-center rounded-md bg-secondary/80 hover:bg-secondary transition-colors">
+            <a aria-label="GitHub" href="https://github.com/bekisho/" target="_blank" rel="noreferrer" className="size-9 inline-flex items-center justify-center rounded-md bg-secondary/80 hover:bg-secondary transition-colors">
               <Github className="size-5" />
             </a>
           </div>
