@@ -30,7 +30,7 @@ export function About() {
           </div>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild variant="outline">
-              <a href="/cv.pdf" download>Download CV</a>
+              <a href="/file:///C:/Users/aa/Downloads/CV.UI.pdf" download>Download CV</a>
             </Button>
             <Button asChild variant="ghost">
               <a href="#process">My Design Process</a>
