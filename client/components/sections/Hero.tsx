@@ -6,18 +6,18 @@ export function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(1000px_600px_at_10%_-10%,hsl(var(--accent)/0.25),transparent),radial-gradient(800px_500px_at_90%_-20%,hsl(var(--primary)/0.15),transparent)]" />
       <div className="container py-24 md:py-32">
-        <div className="grid items-center gap-10 md:grid-cols-2">
-          <div className="max-w-3xl">
+        <div className="grid items-center gap-10 justify-items-center">
+          <div className="max-w-3xl mx-auto text-center motion-safe:animate-fade-up">
             <p className="inline-flex items-center gap-2 rounded-full bg-secondary px-3 py-1 text-xs font-medium text-foreground/70">
               <Star className="size-3.5 text-accent" /> Available for freelance & full‑time
             </p>
-            <h1 className="mt-6 text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
+            <h1 className="mt-6 text-4xl md:text-6xl font-extrabold tracking-tight leading-tight motion-safe:animate-fade-up" style={{ animationDelay: "120ms" }}>
               Hi, I'm Beka — a UI/UX Designer crafting intuitive digital experiences.
             </h1>
-            <p className="mt-4 text-lg text-foreground/70 max-w-2xl">
+            <p className="mt-4 text-lg text-foreground/70 max-w-2xl mx-auto motion-safe:animate-fade-up" style={{ animationDelay: "240ms" }}>
               I design clean, user‑focused websites and apps with a blend of creativity and strategy.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-wrap gap-3 justify-center motion-safe:animate-fade-up" style={{ animationDelay: "360ms" }}>
               <Button asChild className="group">
                 <a href="#work">
                   View My Work
@@ -29,14 +29,9 @@ export function Hero() {
               </Button>
             </div>
           </div>
-          <div className="relative mx-auto w-full max-w-sm md:max-w-md">
-            <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-br from-accent/30 to-transparent blur-2xl" aria-hidden />
-            <figure className="overflow-hidden rounded-3xl border border-border bg-card shadow-xl">
-              <img src="public/ast/anm1.png" alt="Portrait of Beka Fite" className="h-full w-full object-cover aspect-square" />
-            </figure>
-          </div>
         </div>
       </div>
     </section>
   );
 }
+

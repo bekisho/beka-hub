@@ -40,7 +40,7 @@ export function Footer() {
             <a aria-label="Behance" href="https://www.behance.net/bekafite" target="_blank" rel="noreferrer" className="size-9 inline-flex items-center justify-center rounded-md bg-secondary/80 hover:bg-secondary transition-colors">
               <Globe className="size-5" />
             </a>
-            <a aria-label="Dribbble" href="https://dribbble.com/" target="_blank" rel="noreferrer" className="size-9 inline-flex items-center justify-center rounded-md bg-secondary/80 hover:bg-secondary transition-colors">
+            <a aria-label="Dribbble" href="https://dribbble.com/account/profile" target="_blank" rel="noreferrer" className="size-9 inline-flex items-center justify-center rounded-md bg-secondary/80 hover:bg-secondary transition-colors">
               <Dribbble className="size-5" />
             </a>
             <a aria-label="Email" href="bekafite@gmail.com" className="size-9 inline-flex items-center justify-center rounded-md bg-secondary/80 hover:bg-secondary transition-colors">
